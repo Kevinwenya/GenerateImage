@@ -20,3 +20,5 @@
          3、G的目的：上面提到过，D(G(z))是D网络判断G生成的图片是否真实的概率，G应该希望自己生成的图片“越接近真实越好”。也就是说，G希
          望D(G(z))尽可能得大，这时V(D, G)会变小。因此我们看到式子的最前面的记号是min_G。
          4、D的目的：D的能力越强，D(x)应该越大，D(G(x))应该越小。这时V(D,G)会变大。因此式子对于D来说是求最大(max_D)
+#### 如何用随机梯度下降法训练D和G？
+  ![image](https://github.com/Kevinwenya/GenerateImage/blob/master/gan_gradient.jpg)
