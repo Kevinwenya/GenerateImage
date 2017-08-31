@@ -12,8 +12,8 @@
          真实的，因此D(G(z)) = 0.5。
 
    ![image](https://github.com/Kevinwenya/GenerateImage/blob/master/gan.jpg)
-     ##### 公式取自：Ian Goodfellow大牛的Generative Adversarial Networks（arxiv：https://arxiv.org/abs/1406.2661
- #### 公式说明
+##### 公式取自：Ian Goodfellow大牛的Generative Adversarial Networks（arxiv：https://arxiv.org/abs/1406.2661
+#### 公式说明
          1、整个式子由两项构成。x表示真实图片，z表示输入G网络的噪声，而G(z)表示G网络生成的图片。
          2、D(x)表示D网络判断真实图片是否真实的概率（因为x就是真实的，所以对于D来说，这个值越接近1越好）。而D(G(z))是D网络判断G生成
          的图片的是否真实的概率。
