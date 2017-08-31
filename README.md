@@ -10,7 +10,8 @@
          这样，G和D构成了一个动态的“博弈过程”。
          4、最后博弈的结果是什么？在最理想的状态下，G可以生成足以“以假乱真”的图片G(z)。对于D来说，它难以判定G生成的图片究竟是不是
          真实的，因此D(G(z)) = 0.5。
-         5、可以这样理解：generator是一个伪造假币的专业人士，discriminator是警察，generator的目的是制造出尽可能以假乱真的假钞，而discriminator          是为了能鉴别是否为假钞，最终整个gan会达到所谓的纳什均衡
+         5、可以这样理解：generator是一个伪造假币的专业人士，discriminator是警察，generator的目的是制造出尽可能以假乱真的假钞，
+         而discriminator是为了能鉴别是否为假钞，最终整个gan会达到所谓的纳什均衡。
 
    ![image](https://github.com/Kevinwenya/GenerateImage/blob/master/gan.jpg)
 ##### 公式取自：Ian Goodfellow大牛的Generative Adversarial Networks（arxiv：https://arxiv.org/abs/1406.2661
