@@ -22,3 +22,6 @@
          4、D的目的：D的能力越强，D(x)应该越大，D(G(x))应该越小。这时V(D,G)会变大。因此式子对于D来说是求最大(max_D)
 #### 如何用随机梯度下降法训练D和G？
   ![image](https://github.com/Kevinwenya/GenerateImage/blob/master/gan_gradient.jpg)
+         这里红框圈出的部分是我们要额外注意的:
+         第一步我们训练D，D是希望V(G, D)越大越好，所以是加上梯度(ascending)。
+         第二步训练G时，V(G, D)越小越好，所以是减去梯度(descending)。整个训练过程交替进行。
